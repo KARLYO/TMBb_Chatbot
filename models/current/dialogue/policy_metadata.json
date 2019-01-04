@@ -1,0 +1,46 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "movie",
+        "star"
+      ]
+    },
+    "action_recommend_other_movies": {
+      "slots": []
+    },
+    "action_movie_stars": {
+      "slots": []
+    },
+    "action_movie_information": {
+      "slots": []
+    },
+    "action_star_movies": {
+      "slots": []
+    },
+    "action_now_playing_movies": {
+      "slots": []
+    },
+    "action_movie_rating": {
+      "slots": []
+    },
+    "action_recommend_similar_movies": {
+      "slots": []
+    },
+    "utter_greeting": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.3",
+  "python": "3.6.5",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20181229-213802"
+}

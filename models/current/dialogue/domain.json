@@ -1,0 +1,31 @@
+{
+  "states": [
+    "intent_ask_movie_information",
+    "intent_ask_movie_rating",
+    "intent_ask_movie_stars",
+    "intent_ask_now_playing_movies",
+    "intent_ask_related_recommendation",
+    "intent_ask_star_movies",
+    "intent_dislike_movie",
+    "intent_greet",
+    "intent_like_movie",
+    "intent_thank",
+    "entity_movie",
+    "entity_star",
+    "slot_movie_0",
+    "slot_star_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_utter_greeting",
+    "prev_utter_goodbye",
+    "prev_action_now_playing_movies",
+    "prev_action_movie_information",
+    "prev_action_movie_rating",
+    "prev_action_movie_stars",
+    "prev_action_star_movies",
+    "prev_action_recommend_similar_movies",
+    "prev_action_recommend_other_movies"
+  ]
+}

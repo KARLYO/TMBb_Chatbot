@@ -1,0 +1,53 @@
+%YAML 1.1
+---
+actions:
+- utter_greeting
+- utter_goodbye
+- action_now_playing_movies
+- action_movie_information
+- action_movie_rating
+- action_movie_stars
+- action_star_movies
+- action_recommend_similar_movies
+- action_recommend_other_movies
+config:
+  store_entities_as_slots: true
+entities:
+- movie
+- star
+forms: []
+intents:
+- greet:
+    use_entities: true
+- thank:
+    use_entities: true
+- ask_now_playing_movies:
+    use_entities: true
+- ask_movie_information:
+    use_entities: true
+- ask_movie_rating:
+    use_entities: true
+- ask_movie_stars:
+    use_entities: true
+- ask_star_movies:
+    use_entities: true
+- dislike_movie:
+    use_entities: true
+- like_movie:
+    use_entities: true
+- ask_related_recommendation:
+    use_entities: true
+slots:
+  movie:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  star:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_goodbye:
+  - text: bye bye
+  utter_greeting:
+  - text: hello, I can offer much informatioon about movie for you
