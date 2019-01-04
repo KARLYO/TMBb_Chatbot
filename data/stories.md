@@ -420,7 +420,7 @@
  
  
  
-##random6
+## random6
 * ask_movie_rating{"movie":"The Hoax"}
  - action_movie_rating 
 * ask_related_recommendation{"movie":"Rain Man"}
