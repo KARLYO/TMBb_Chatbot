@@ -1,0 +1,953 @@
+{
+
+"rasa_nlu_data":{
+
+"common_examples":[
+
+  {
+    "text":"What movie is hot recently",
+    "intent":"ask_now_playing_movies",
+"entities":[
+
+]},
+  {
+    "text":"What movie can I see in the cinema now",
+    "intent":"ask_now_playing_movies",
+"entities":[
+
+]},
+
+    {
+    "text":" hello",
+    "intent":"greet",
+"entities":[]},
+
+   {
+    "text":" nice to meet you",
+    "intent":"greet",
+"entities":[]},
+
+
+    {
+    "text":" goodbye",
+    "intent":"good_bye",
+	"entities":[]},
+
+
+   {
+    "text":" farewell",
+    "intent":"good_bye",
+"entities":[]},
+
+     {
+    "text":"show me story of this movie",
+    "intent":"ask_movie_information",
+"entities":[
+
+]},
+
+
+
+
+    {
+    "text":"I want to ask information about Interstellar",
+    "intent":"ask_movie_information",
+"entities":[
+  {
+    "start":32,
+   "end": 44,
+  "value":"Interstellar",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+  {
+    "text":"I want to ask information about Aquaman",
+    "intent":"ask_movie_information",
+"entities":[
+  {
+    "start":32,
+   "end": 39,
+  "value":"Aquaman",
+   "entity":"movie"
+  }
+]},
+
+
+  {
+    "text":"I want to ask information about The Dark Knight",
+    "intent":"ask_movie_information",
+"entities":[
+  {
+    "start":32,
+   "end": 47,
+  "value":"The Dark Knight",
+   "entity":"movie"
+  }
+]},
+
+
+  {
+    "text":"Show me information about Inception",
+    "intent":"ask_movie_information",
+"entities":[
+  {
+    "start":26,
+   "end": 35,
+  "value":"Inception",
+   "entity":"movie"
+  }
+]},
+
+
+  {
+    "text":" What does Memento say",
+    "intent":"ask_movie_information",
+"entities":[
+  {
+    "start":10,
+   "end": 17,
+  "value":"Memento",
+   "entity":"movie"
+  }
+]},
+
+  {
+    "text":"What does Gladiator say",
+    "intent":"ask_movie_information",
+"entities":[
+  {
+    "start":10,
+   "end": 19,
+  "value":"Gladiator",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+
+
+
+      {
+    "text":"I want to know the rating of Saving Private Ryan",
+    "intent":"ask_movie_rating",
+"entities":[
+  {
+    "start":28,
+   "end": 47,
+  "value":"Saving Private Ryan",
+   "entity":"movie"
+  }
+]},
+
+    {
+    "text":"show me the score of this film",
+    "intent":"ask_movie_rating",
+"entities":[
+
+]},
+
+
+
+
+    {
+    "text":"show me the rating of this film",
+    "intent":"ask_movie_rating",
+"entities":[
+
+]},
+    {
+    "text":"I want to know the rating of Django Unchained",
+    "intent":"ask_movie_rating",
+"entities":[
+  {
+    "start":29,
+   "end": 45,
+  "value":"Django Unchained",
+   "entity":"movie"
+  }
+]},
+
+      {
+    "text":"I want to know the rating of Braveheart",
+    "intent":"ask_movie_rating",
+"entities":[
+  {
+    "start":29,
+   "end": 39,
+  "value":"Braveheart",
+   "entity":"movie"
+  }
+]},
+
+    {
+    "text":"I want to know the rating of Bohemian Rhapsody",
+    "intent":"ask_movie_rating",
+"entities":[
+  {
+    "start":29,
+   "end": 46,
+  "value":"Bohemian Rhapsody",
+   "entity":"movie"
+  }
+]},
+
+
+    {
+    "text":"I want to know the score of A Beautiful Mind",
+    "intent":"ask_movie_rating",
+"entities":[
+  {
+    "start":28,
+   "end": 44,
+  "value":"A Beautiful Mind",
+   "entity":"movie"
+  }
+]},
+
+    {
+    "text":"I want to know the score of V for Vendetta",
+    "intent":"ask_movie_rating",
+"entities":[
+  {
+    "start":28,
+   "end": 42,
+  "value":"V for Vendetta",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+
+
+
+
+
+      {
+    "text":"please introduce more movies of Jet Li",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":30,
+   "end": 36,
+  "value":"Jet Li",
+   "entity":"star"
+  }
+]},
+
+
+
+     {
+    "text":"does Leonardo DiCaprio has any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 22,
+  "value":"Leonardo DiCaprio",
+   "entity":"star"
+  }
+]},
+
+
+ {
+    "text":"please introduce more movies of Johnny Depp",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":32,
+   "end": 43,
+  "value":"Johnny Depp",
+   "entity":"star"
+  }
+]},
+
+     {
+    "text":"please introduce more movies of Brad Pitt",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":32,
+   "end": 41,
+  "value":"Brad Pitt",
+   "entity":"star"
+  }
+]},
+
+
+     {
+    "text":"please introduce more movies of Will Smith",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":32,
+   "end": 43,
+  "value":"Will Smith",
+   "entity":"star"
+  }
+]},
+
+
+
+     {
+    "text":"does Leonardo DiCaprio have any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 22,
+  "value":"Leonardo DiCaprio",
+   "entity":"star"
+  }
+]},
+
+
+
+
+     {
+    "text":"does Harrison Ford have any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 18,
+  "value":"Harrison Ford",
+   "entity":"star"
+  }
+]},
+
+      {
+    "text":"does Matt Damon have any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 15,
+  "value":"Matt Damon",
+   "entity":"star"
+  }
+]},
+
+    {
+    "text":"does Julia Roberts have any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 18,
+  "value":"Julia Roberts",
+   "entity":"star"
+  }
+]},
+
+   {
+    "text":"does Amber Heard have any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 16,
+  "value":"Amber Heard",
+   "entity":"star"
+  }
+]},
+
+   {
+    "text":"does Anthony Hopkins have any famous work",
+    "intent":"ask_stars_movie",
+"entities":[
+  {
+    "start":5,
+   "end": 20,
+  "value":"Anthony Hopkins",
+   "entity":"star"
+  }
+]},
+
+
+
+
+
+
+
+
+
+
+      {
+    "text":"that film sounds bad",
+    "intent":"dislike_movie",
+"entities":[
+
+]},
+
+
+     {
+    "text":"sorry,I don't like this movie",
+    "intent":"dislike_movie",
+"entities":[
+
+]},
+     {
+    "text":"I don't like Matrix",
+    "intent":"dislike_movie",
+"entities":[
+  {
+    "start":13,
+   "end": 19,
+  "value":"Matrix",
+   "entity":"movie"
+  }
+]},
+
+
+      {
+    "text":"the story of Gladiator sounds interesting",
+    "intent":"like_movie",
+"entities":[
+  {
+    "start":13,
+   "end": 22,
+  "value":"Gladiator",
+   "entity":"movie"
+  }
+]},
+   {
+    "text":"I like this movie",
+    "intent":"like_movie",
+"entities":[
+
+]},
+
+
+
+      {
+    "text":"Can you recommend more films like Pacific Rim for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 45,
+  "value":"Pacific Rim",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+      {
+    "text":"Can you recommend more films like Logan for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 69,
+  "value":"Logan",
+   "entity":"movie"
+  }
+]},
+
+      {
+    "text":"Can you recommend more films like 12 Years a Slave for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 50,
+  "value":"12 Years a Slave",
+   "entity":"movie"
+  }
+]},
+
+
+      {
+    "text":"Can you recommend more films like Shutter Island for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 48,
+  "value":"Shutter Island",
+   "entity":"movie"
+  }
+]},
+
+
+
+      {
+    "text":"Can you recommend more films like Jurassic Park for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 47,
+  "value":"Jurassic Park",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+
+    {
+    "text":"Can you recommend films similar with Ran",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":37,
+   "end": 40,
+  "value":"Ran",
+   "entity":"movie"
+  }
+]},
+
+
+
+ {
+    "text":"Can you recommend films similar with Eternal Sunshine of the Spotless Mind",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":37,
+   "end": 74,
+  "value":"Eternal Sunshine of the Spotless Mind",
+   "entity":"movie"
+  }
+]},
+
+ {
+    "text":"Can you recommend films similar with Lock, Stock and Two Smoking Barrels",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":37,
+   "end": 72,
+  "value":"Lock, Stock and Two Smoking Barrels",
+   "entity":"movie"
+  }
+]},
+
+ {
+    "text":"Can you recommend films similar with Batman Begins",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":37,
+   "end": 50,
+  "value":"Batman Begins",
+   "entity":"movie"
+  }
+]},
+
+ {
+    "text":"Can you recommend films similar with 2001: A Space Odyssey",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":37,
+   "end": 58,
+  "value":"2001: A Space Odyssey",
+   "entity":"movie"
+  }
+]},
+
+
+
+ {
+    "text":"Can you recommend films similar with Toy Story",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":37,
+   "end": 46,
+  "value":"Toy Story",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+      {
+    "text":"more movies which are similar with this movie",
+    "intent":"ask_related_recommendation",
+"entities":[
+
+]},
+
+
+
+
+
+    {
+    "text":"Can you recommend more films like Pulp Fiction for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 46,
+  "value":"Pulp Fiction",
+   "entity":"movie"
+  }
+]},
+
+      {
+    "text":"Can you recommend more films like Forrest Gump for me",
+    "intent":"ask_related_recommendation",
+"entities":[
+  {
+    "start":34,
+   "end": 46,
+  "value":"Forrest Gump",
+   "entity":"movie"
+  }
+]},
+
+      {
+    "text":"other movies which are similar with this movie",
+    "intent":"ask_related_recommendation",
+"entities":[
+
+]},
+
+        {
+    "text":"show me other movies which are similar with this movie",
+    "intent":"ask_related_recommendation",
+"entities":[
+
+]},
+
+        {
+    "text":"show me other similar movies",
+    "intent":"ask_related_recommendation",
+"entities":[
+
+]},
+
+    {
+    "text":"Do you know any other similar movies",
+    "intent":"ask_related_recommendation",
+"entities":[
+
+]},
+
+
+
+
+      {
+    "text":"I want to know actors in Pacific Rim",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 36,
+  "value":"Pacific Rim",
+   "entity":"movie"
+  }
+]},
+
+
+
+   {
+    "text":"I want to know actors in Bird Box",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 36,
+  "value":"Bird Box",
+   "entity":"movie"
+  }
+]},
+
+
+
+   {
+    "text":"I want to know actors in The Haunting of Hill House",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 51,
+  "value":"The Haunting of Hill House",
+   "entity":"movie"
+  }
+]},
+
+
+ {
+    "text":"I want to know actors in Venom",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 36,
+  "value":"Venom",
+   "entity":"movie"
+  }
+]},
+
+
+ {
+    "text":"I want to know actors in The House That Jack Built",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 50,
+  "value":"The House That Jack Built",
+   "entity":"movie"
+  }
+]},
+
+
+ {
+    "text":"I want to know actors in Dead Poets Society",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 43,
+  "value":"Dead Poets Society",
+   "entity":"movie"
+  }
+]},
+
+
+
+ {
+    "text":"I want to know actors in Harry Potter and the Deathly Hallows: Part 2",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 69,
+  "value":"Harry Potter and the Deathly Hallows: Part 2",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+
+
+
+      {
+    "text":"I want to know stars in Pacific Rim",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":24,
+   "end": 35,
+  "value":"Pacific Rim",
+   "entity":"movie"
+  }
+]},
+
+
+
+   {
+    "text":"I want to know stars in Bird Box",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":24,
+   "end": 35,
+  "value":"Bird Box",
+   "entity":"movie"
+  }
+]},
+
+
+
+   {
+    "text":"I want to know stars in The Haunting of Hill House",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":24,
+   "end": 50,
+  "value":"The Haunting of Hill House",
+   "entity":"movie"
+  }
+]},
+
+
+ {
+    "text":"I want to know stars in Venom",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":24,
+   "end": 29,
+  "value":"Venom",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+
+      {
+    "text":"who are starring in Inception",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 29,
+  "value":"Inception",
+   "entity":"movie"
+  }
+]},
+
+
+
+     {
+    "text":"I want to know actors in Pacific Rim",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":25,
+   "end": 36,
+  "value":"Pacific Rim",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+
+
+    {
+    "text":"who are starring in Million Dollar Baby",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 39,
+  "value":"Million Dollar Baby",
+   "entity":"movie"
+  }
+]},
+
+
+    {
+    "text":"who are starring in Titanic",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 27,
+  "value":"Titanic",
+   "entity":"movie"
+  }
+]},
+
+
+
+    {
+    "text":"who are starring in Schindler's List",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 36,
+  "value":"Schindler's List",
+   "entity":"movie"
+  }
+]},
+
+
+
+
+{
+    "text":"who are starring in this movie",
+    "intent":"ask_movie_stars",
+"entities":[
+
+]},
+
+
+
+
+   {
+    "text":"Show me the cast of Moonlight",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 29,
+  "value":"Moonlight",
+   "entity":"movie"
+  }
+]},
+
+
+ {
+    "text":"Show me the cast of Argo",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 24,
+  "value":"Argo",
+   "entity":"movie"
+  }
+]},
+
+ {
+    "text":"Show me the cast of The Hurt Locker",
+    "intent":"ask_movie_stars",
+"entities":[
+  {
+    "start":20,
+   "end": 35,
+  "value":"The Hurt Locker",
+   "entity":"movie"
+  }
+]},
+
+
+
+      {
+    "text":"show me the lineup of this movie",
+    "intent":"ask_movie_stars",
+"entities":[
+
+]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}
+}
