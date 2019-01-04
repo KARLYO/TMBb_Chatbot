@@ -4,9 +4,10 @@ RASA is a very useful tool, and we can use it to construct more robust chatbot m
 
 We Choose movie information query as main QA domain of our chatbot. Unlike some software like Doubai or IMDb, the user just need to input whole sentences to get information they want.
 
-## 1.design and recognition of intentions and entity about movie information query  
+## 1.design and recognition of intents and entities about movie information query  
 We define 10 kind frequent intention as follow
-- greet   - thank
+  - greet   
+  - thank
   - ask_now_playing_movies(ask bot what movie is on in the cinema)
   - ask_movie_information(ask bot type and overview of the movie )
   - ask_movie_rating(ask bot the rating of the movie)
@@ -36,7 +37,7 @@ In file domain.yml, we list all intents,entities actions which will be used latt
 Now, we need define stories to simulate finite state machine, the RASA NLU need to know what real conversations are and train itself with data. In the file stories.md, we write many possible conversations which contain different intents of question and corresponding answers. For example, The case of lastest movies3, the user may ask what movie is on now, then the bot lists all hot movies in the cinema, and then the user may ask one specific movie among them, and the robot will answer concrete details. In the end, the user may show great interest about this movie, the bot can thus actively show similar movies for the user. Compared with traditional FSM, this technology can deal with more complex case, and large-scale data.
 
 
-## 3.Integrating of whole framework and testing 
+## 3.Integrating of the whole framework and testing 
 
 In the run.py, we combine all the work above. We train RASA NLU to get NLU Interpreter, and We use RASA NLU’s agent to train stories with using NLU interpreter. We also define scientific training policies in the file policies.yml.
 
