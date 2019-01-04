@@ -1,0 +1,34 @@
+intents:
+  - greet
+  - thank
+  - ask_now_playing_movies
+  - ask_movie_information
+  - ask_movie_rating
+  - ask_movie_stars
+  - ask_star_movies
+  - dislike_movie
+  - like_movie
+  - ask_related_recommendation
+actions:
+- utter_greeting
+- utter_goodbye
+- action_now_playing_movies
+- action_movie_information
+- action_movie_rating
+- action_movie_stars
+- action_star_movies
+- action_recommend_similar_movies
+- action_recommend_other_movies
+slots:
+  movie:
+     type: text
+  star:
+     type: text
+entities:
+  - movie
+  - star
+templates:
+  utter_greeting:
+  - text: "hello, I can offer much informatioon about movie for you"
+  utter_goodbye:
+  - text: "bye bye"
